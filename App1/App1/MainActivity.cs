@@ -25,10 +25,10 @@ namespace App1
             mItems.Add(new Person { FirstName = "Suresh", LastName = "Dixit", Age = "35", Gender = "Male" });
             mItems.Add(new Person { FirstName = "Priya", LastName = "Kumari", Age = "30", Gender = "Female" });
 
-            //From Tutorial 2
+            //For tutorial 2
             //ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItems);
 
-            //From Tutorial 3 onwards till
+            //From tutorial 3 onwards till tutorial 5
             MyListViewAdapter adapter = new MyListViewAdapter(this, mItems);
 
             mListView.Adapter = adapter;
